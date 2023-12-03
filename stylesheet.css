@@ -1,0 +1,235 @@
+body{
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 80%;
+    margin: 0% auto;
+    overflow: hidden;
+}
+header{
+    background-color: rgb(3, 52, 70);
+    color: white;
+    padding-top: 10px; padding-bottom: 10px;padding: left 20px; padding-right: 20px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display: inline;
+    padding-top: 0%; padding-bottom: 0%; padding-left: 20px; padding-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Georgia;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(225, 165, 13);
+
+}
+#caption {
+    float: left;
+}
+#caption h1{
+    margin: 0%;
+}
+header .logogold{
+   color: gold;
+}
+#Hero{
+    min-height: 600px;
+    background-image: url('scrn.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#Hero h4{
+    font-size: 25px;
+    margin-top: 160px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#Hero h1{
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: gold;
+    font-family: cursive;
+}
+#Hero button{
+    font-size: 19px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    color: rgb(3,52,70);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+}
+#Hero button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid gold;
+}
+#separate{
+    padding: 5px;
+    background-color: rgb(3,52,70);
+}
+#About{
+    padding-top: 120px; padding-bottom: 120px; padding-left: 0px; padding-right: 0px;
+    background-color: white;
+}
+#About h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    color:rgb(3,52,70);
+}
+.Aboutbox1{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+#Aboutbox1 img{
+    display: block;
+    margin: auto;
+}
+.Aboutbox2{
+    width: 60%;
+    float: right;
+    padding: 10px;
+    text-align: justify;
+}
+.About button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid rgb(3,52,70);
+    color: rgb(3,52,70);
+    padding-top: 8px; padding-bottom: 8px; padding-right: 20px; padding-left: 20px;
+
+}
+#About button:hover{
+    background-color:rgb(3,52,70) ;
+    color: white;
+    border: white;
+}
+#Myskills{
+    background-color:rgb(215, 238, 238);
+    padding-top: 70px; padding: 70px; padding-left: 0px; padding-right: 0px;
+}
+.box{
+    width: 28%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+   margin: 1rem;
+    position: relative;
+   
+  }
+  
+  .card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  #Myskills h2{
+    color:rgb(3,52,70);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+  }
+  #Myskills h3{
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+  }
+  #Myskills p{
+    font-size: 14px;
+    color: rgb(109, 108, 108);
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  #form h4{
+    margin-top: 20px;
+     margin-bottom: 10px;
+     font-size: 30px;
+     font-weight: bold;
+     color:rgb(3,52,70) ;
+     font-family:sans-serif;
+     text-align: center;
+  }
+  #form{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 70px;
+    background-color: white;
+    text-align: center;
+  }
+  #form .formgroup{
+    font-size: 20px;
+    color:rgb(3,52,70) ;
+    font-weight: bold;
+ }
+ input{
+    width: 250px;
+    padding: 5px;
+    margin-top: 2pt;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+ #form .button{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(3,52,70);
+    border: 1px solid rgb(3,52,70);
+ }
+ #form .button:hover{
+    color: rgb(3,52,70);
+    background-color: white;
+ }
+ footer{
+    padding: 10px;
+    color:rgb(3,52,70);
+    background-color: white;
+    text-align: center;
+ }
+ #cv{
+    display: none;
+ }
+ #cv{
+    font-weight: bold;
+    font-family:Geneva;
+    color: darkblue; 
+ }
+#name-validation, #email-validation, #message-validation{
+   
+  color:rgb(186, 21, 3);
+  display: none;
+ }
+ 
